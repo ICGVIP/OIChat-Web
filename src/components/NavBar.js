@@ -20,11 +20,11 @@ function NavBar(){
     }
 
     const handleFeatures = ()=>{
-        window.location.href='/#features'
+        window.location.href='/OIChat-Web/#features'
     }
 
     const handleDownload = ()=>{
-        window.location.href='/#download'
+        window.location.href='/OIChat-Web/#download'
     }
 
     return(
