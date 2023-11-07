@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OIChat-Web/static/css/main.44735096.css",
-    "main.js": "/OIChat-Web/static/js/main.94e44379.js",
+    "main.js": "/OIChat-Web/static/js/main.bec51232.js",
     "static/js/787.6ec997ba.chunk.js": "/OIChat-Web/static/js/787.6ec997ba.chunk.js",
     "index.html": "/OIChat-Web/index.html",
     "main.44735096.css.map": "/OIChat-Web/static/css/main.44735096.css.map",
-    "main.94e44379.js.map": "/OIChat-Web/static/js/main.94e44379.js.map",
+    "main.bec51232.js.map": "/OIChat-Web/static/js/main.bec51232.js.map",
     "787.6ec997ba.chunk.js.map": "/OIChat-Web/static/js/787.6ec997ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44735096.css",
-    "static/js/main.94e44379.js"
+    "static/js/main.bec51232.js"
   ]
 }
