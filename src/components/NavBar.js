@@ -34,7 +34,7 @@ function NavBar(){
             <nav className="navbar navbar-expand-lg" style={style.navdark}>
             <div className="container d-flex align-items-center">
                 <div className='navbar-brand d-flex'>
-                    <Link to='/'>
+                    <Link to='/OIChat-Web'>
                         <div className={`${classes.img_fit} ${classes.logo} me-3 animate__animated animate__fadeInDown`}>
                         
                         </div>
@@ -57,7 +57,7 @@ function NavBar(){
                                 <div style={{cursor:'pointer'}} onClick={handleDownload} className={`no-decor animate__animated animate__fadeInDown`}><b className={classes.navHover}>Download</b></div>
                             </li>
                             <li className='nav-item my-2 my-lg-0 mb-3 mb-lg-0 mx-lg-4 text-light d-flex flex-column d-lg-inline-block fs-5'>
-                                <Link to='/support' className='no-decor animate__animated animate__fadeInDown d-inline-block mb-3 my-lg-0 mx-0 mx-lg-2 ' style={{fontWeight:'bold'}}><b className={classes.navHover}>Support</b></Link>
+                                <Link to='/OIChat-Web/support' className='no-decor animate__animated animate__fadeInDown d-inline-block mb-3 my-lg-0 mx-0 mx-lg-2 ' style={{fontWeight:'bold'}}><b className={classes.navHover}>Support</b></Link>
                             </li>
                         </ul>
                 </div>
