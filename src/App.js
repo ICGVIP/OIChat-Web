@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route exact path = '/OIChat-Web' element={<Home />}></Route>
+        <Route exact path = '/OIChat-Web/' element={<Home />}></Route>
         <Route exact path = '/OIChat-Web/support' element={<Support/>}></Route>
       </Routes>
       <Toaster 
