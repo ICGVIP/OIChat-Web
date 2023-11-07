@@ -175,7 +175,7 @@ function handleDescChange(e){
         </div>
       </div>
 
-      <div className='container-fluid my-5 py-lg-5'>
+      <div className='container-fluid my-5 py-3'>
         <div className='row d-flex pt-lg-5 my-lg-5 justify-content-lg-center'>
 
                 <div className='col-12 col-lg-6 col-xxl-5 order-2 order-lg-1 mb-4 mb-lg-0 d-flex flex-column align-items-center pt-5'>
@@ -185,7 +185,7 @@ function handleDescChange(e){
                   <button className='rounded btn btn-success'><h4><i className="fa-regular fa-comment-dots align-middle mx-2"></i>Chat Support</h4></button>
                 </div>
 
-                <div className='col-12 col-lg-5 order-1 order-lg-2 my-3 my-lg-0 d-flex justify-content-center'>
+                <div className='col-12 col-lg-5 order-1 order-lg-2 my-lg-0 d-flex justify-content-center'>
                     <div className='w-100 d-flex justify-content-center justify-content-lg align-items-center align-items-xl-center'>
                         <div className={`animate__animated animate__fadeInRight ${classes.ai}`}>
 
@@ -195,20 +195,20 @@ function handleDescChange(e){
         </div>
       </div>
 
-      <div className='container my-lg-5 py-lg-5'>
+      <div className='container my-lg-5'>
 
       </div>
       
       <div className='container-fluid my-5' style={{backgroundColor:'rgb(29,29,29)'}}>
-        <div className='row d-flex flex-column pt-5 my-5 justify-content-start'>
+        <div className='row d-flex pt-5 my-5 justify-content-start'>
 
               <div className='col-12 col-lg-6 offset-lg-1 col-xxl-3 mb-4 mb-lg-0 d-flex flex-column pt-5'>
                   <h1 className='text-light mb-5'>Get in touch with us</h1>
                   <h5 className='text-light border p-3 rounded' style={{color:'rgb(207,207,207)'}}>Hi there! Need help? Use the form below or email us at info@oichat.com</h5>
 
-              </div>
+              
 
-                <Form noValidate validated={validated} onSubmit={handleSubmit} className='col-12 col-lg-6 col-xxl-3 offset-lg-1 d-flex flex-column p-4'>
+                <Form noValidate validated={validated} onSubmit={handleSubmit} className='w-100 d-flex flex-column p-4'>
                         <Form.Group controlId="validationCustom01" className={`d-flex flex-column align-items-start w-100`}>
                             <Form.Label className={classes.label}>Name</Form.Label>
                                 <Form.Control
@@ -246,7 +246,14 @@ function handleDescChange(e){
                                 </button>
                         </div>
                 </Form>
-                
+              </div>
+              <div className={`d-none col-12 col-lg-5 offset-1 offset-xxl-2 my-3 my-lg-0 d-lg-flex justify-content-center`}>
+                    <div className='w-100 d-flex justify-content-center justify-content-lg align-items-center align-items-xl-center'>
+                        <div className={`animate__animated animate__fadeInRight ${classes.screen}`}>
+
+                        </div>
+                    </div>
+              </div>
           </div>
       </div>
 

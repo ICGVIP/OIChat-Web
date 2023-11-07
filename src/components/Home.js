@@ -35,7 +35,7 @@ function Home() {
           <div className='col-12 w-100'>
 
             <div className='row w-100 d-flex justify-content-center align-items-center'>
-              <div className='col-10 col-lg-3 col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
+              <div className='col-10 col-lg col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
                 <div className={classes.icon_chat}>
 
                 </div>
@@ -44,7 +44,7 @@ function Home() {
                   <p style={{color:'rgb(121,120,120)'}}><b>Unified Conversations: Call and chat seamlessly within one intuitive interface.</b></p>
                 </div>
               </div>
-              <div className='col-10 col-lg-3 col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
+              <div className='col-10 col-lg col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
                 <div className={classes.icon_trade}>
 
                 </div>
@@ -53,10 +53,7 @@ function Home() {
                   <p style={{color:'rgb(121,120,120)'}}><b>Seamlessly manage crypto and stocks with ease, all within our integrated feature.</b></p>
                 </div>
               </div>
-            </div>
-
-            <div className='row w-100 d-flex justify-content-center align-items-center'>
-              <div className='col-10 col-lg-3 col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
+              <div className='col-10 col-lg col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
                 <div className={classes.icon_discover}>
 
                 </div>
@@ -66,7 +63,7 @@ function Home() {
                   connections.</b></p>
                 </div>
               </div>
-              <div className='col-10 col-lg-3 col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
+              <div className='col-10 col-lg col-xxl-2 d-flex flex-column mx-lg-5 my-5' style={{backgroundColor:'rgb(21,21,23)'}}>
                 <div className={classes.icon_marketplace}>
 
                 </div>
@@ -75,6 +72,10 @@ function Home() {
                   <p style={{color:'rgb(121,120,120)'}}><b>Sell, buy, or rent seamlessly within our all-inclusive marketplace. Also engage in B2B and B2C transactions</b></p>
                 </div>
               </div>
+            </div>
+
+            <div className='row w-100 d-flex justify-content-center align-items-center'>
+              
             </div>
 
           </div>

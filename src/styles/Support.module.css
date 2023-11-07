@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-.ai {
+.ai{
     background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/ai.png');
     background-size:cover;
     background-position:center;
@@ -41,4 +41,21 @@
     background-color: rgb(244,146,49);
     color:white;
     font-size:1.2em
+}
+
+.screen {
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/call.png');
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:50%;
+    height:0;
+    padding-bottom:50%
+}
+
+.extra_ctr{
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/bg_wave.png');
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
 }
