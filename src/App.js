@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route exact path = '/OIChat-Web/' element={<Home />}></Route>
-        <Route exact path = '/OIChat-Web/support' element={<Support/>}></Route>
+        <Route exact path = '/' element={<Home />}></Route>
+        <Route exact path = '/support' element={<Support/>}></Route>
       </Routes>
       <Toaster 
         containerStyle={{
