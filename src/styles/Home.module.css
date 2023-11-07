@@ -1,0 +1,101 @@
+
+.extra_ctr{
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/bg_wave.png');
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+.extra_orange_bg{
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/orange_bg.png');
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+.demo_img, .demo_phone, .left, .right{
+    height:0;
+    width:70%;
+    padding-bottom: 70%;
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/iPhone+12+Pro.png');
+    opacity: 1;
+    transform: scale(1.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: 2s infinite alternate moveup;
+}
+.demo_phone{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/phone.png');
+}
+
+.heading{
+    font-weight:bolder;
+    font-size: 5em;
+}
+
+.heading2{
+    font-size: 4em;
+    color:rgb(255,255,255)
+}
+
+.image_container{
+    width:'100%';
+    height:auto;
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/last.png');
+    background-size:contain;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+.gradient{
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/LinearGradient.png');
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+.icon_chat,.icon_marketplace,.icon_trade,.icon_discover{
+    width:100%;
+    height:0;
+    padding-bottom:100%;
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/chat.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.download_bg{
+    background-image:url('https://oichat.s3.us-east-2.amazonaws.com/assets/download_bg.png');
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+.left{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/left_side.png');
+}
+
+.right{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/right_side.png');
+}
+.icon_marketplace{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/marketplace.png');
+}
+.icon_trade{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/trade.png');
+}
+.icon_discover{
+    background-image: url('https://oichat.s3.us-east-2.amazonaws.com/assets/discover.png');
+}
+@media screen and (max-width:992px){
+    .heading{
+        font-size: 2em;
+    }
+    .heading2{
+        font-size: 2em;
+    }
+    .left,.right{
+        width:100%;
+        padding-bottom:100%;
+        transform: scale(1)
+    }
+}

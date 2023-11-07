@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Support from './components/Support';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Routes>
+        <Route exact path = '' element={<Home />}></Route>
+        <Route exact path = '/support' element={<Support/>}></Route>
+      </Routes>
+      <Toaster 
+        containerStyle={{
+            top:'50%',
+        }}
+        toastOptions={{
+          style: {
+            borderRadius: '10px',
+            background: 'rgb(250,250,250)',
+            color: '#000',
+            padding:'1rem',
+            boxShadow:'0 1rem 3rem rgba(0,0,0,.175) !important'
+          },
+          duration:4000
+        }}/>
     </div>
   );
 }
