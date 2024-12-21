@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Privacy from './components/Privacy';
+import License from './components/License';
 import Support from './components/Support';
 import { Toaster } from 'react-hot-toast';
 
@@ -10,6 +12,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path = '/' element={<Home />}></Route>
+        <Route exact path = '/privacy' element={<Privacy />}></Route>
+        <Route exact path = '/license' element={<License />}></Route>
         <Route exact path = '/support' element={<Support/>}></Route>
       </Routes>
       <Toaster 

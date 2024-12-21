@@ -54,7 +54,7 @@ function NavBar(){
                             </li>
                             
                             <li className='nav-item my-2 my-lg-0 mb-3 mb-lg-0 mx-lg-4 d-flex flex-column text-light fs-5'>
-                                <div style={{cursor:'pointer'}} onClick={handleDownload} className={`no-decor animate__animated animate__fadeInDown`}><b className={classes.navHover}>Download</b></div>
+                                <Link to='/privacy' className='no-decor animate__animated animate__fadeInDown d-inline-block mb-3 my-lg-0 mx-0 mx-lg-2 ' style={{fontWeight:'bold'}}><b className={classes.navHover}>Privacy Policy</b></Link>
                             </li>
                             <li className='nav-item my-2 my-lg-0 mb-3 mb-lg-0 mx-lg-4 text-light d-flex flex-column d-lg-inline-block fs-5'>
                                 <Link to='/support' className='no-decor animate__animated animate__fadeInDown d-inline-block mb-3 my-lg-0 mx-0 mx-lg-2 ' style={{fontWeight:'bold'}}><b className={classes.navHover}>Support</b></Link>
